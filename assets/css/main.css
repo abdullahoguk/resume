@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey|Arsenal|Cinzel|Cinzel+Decorative|Cormorant|Cormorant+Garamond|Crimson+Text|Dosis|EB+Garamond|Francois+One|Gafata|Heebo|Italiana|Khula|Lustria|Noto+Sans|Open+Sans+Condensed:300|Open+Sans:300,400|PT+Sans|Playfair+Display|Prata|Questrial|Raleway|Slabo+27px|Sorts+Mill+Goudy|Spectral|Work+Sans|Yantramanav');
+
+/*
+font-family: 'Arapey', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Cormorant', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Italiana', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Prata', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Sorts Mill Goudy', serif;
+font-family: 'Spectral', serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Francois One', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Yantramanav', sans-serif;
+font-family: 'Heebo', sans-serif;
+font-family: 'Khula', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Arsenal', sans-serif;
+font-family: 'Gafata', sans-serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Crimson Text', serif;
+font-family: 'Lustria', serif;
+*/
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: "helvetica", sans-serif;
+
+}
+
+body{
+    width: 100%;
+}
+
+.head{
+    margin: auto;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+
+.photo{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.photo > img{
+    width: 10em;
+}
+
+.name{
+    color: #12C9B7;
+    font-size: 3em;
+    flex-grow: 1;
+    font-weight:200; 
+    font-family: 'Playfair Display', serif;
+}
+
+.info{
+    margin-right: 5em;
+    margin-left: 5em;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.info *{
+    color: #011627;
+    font-size: 1em;
+    margin-bottom: .5em;
+    padding-left: .25em;
+    border-left: 2px #043863 solid;
+    border-radius: .1em;
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Prata', serif;
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Lustria', serif;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.body{
+    width: 90%;
+    margin: auto;
+}
+
+.each{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: .25em;
+    width: 75%;
+
+}
+
+.title{
+    color: #011627;
+    font-size: 1.5em;
+    font-family: 'Cinzel', serif;
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Playfair Display', serif;
+
+    border-left: 0px black solid;
+    border-radius: .1em;
+}
+
+.item{
+    width: 85%;
+    margin: .75em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .25em;
+
+    border-left: 2px #043863 solid;
+    border-radius: .1em;
+    background-color: rgba(246, 247, 248,0);
+}
+
+.item:hover{
+    background-color: rgba(246, 247, 248,1);
+}
+
+.date{
+    color:rgb(0, 24, 12);
+    font-size: 1em;
+    margin-bottom: .25em;
+    font-family: 'Arapey', serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.date:before{
+      content: "× ";
+}
+
+.school{
+    color: #011627;
+    font-size: 1.25em;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+.place{
+    font-size: .75em;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.place:before{
+      content: "» ";
+}
+
+.department{
+    font-size: .75em;
+    color: #00416D;
+
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Lustria', serif;
+}
+
+.detail{
+    font-size: .85em;
+    color: #262725;
+    font-family: 'Raleway', sans-serif;
+}
+
+.school, .department, .detail {
+        padding-left: 10px;
+
+}
+
+.hobbies{
+    display: none;
+}
