@@ -34,7 +34,10 @@ font-family: 'Lustria', serif;
     margin: 0;
     padding: 0px;
     font-family: "helvetica", sans-serif;
+}
 
+html{
+    border-top: 2.5px #043863 solid;
 }
 
 body{
