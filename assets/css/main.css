@@ -182,9 +182,57 @@ body{
 
 .school, .department, .detail {
         padding-left: 10px;
-
 }
 
 .hobbies{
     display: none;
 }
+
+/*----Interests and Skills */
+
+.skills .list{
+    display: flex;
+    margin-left: 1em;
+}
+
+.skills .list > .listItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1em;
+    padding: .25em;
+    border-left: 1px #043863 solid;
+    background-color: rgba(200, 200, 200,.65);
+    font-size: .85em;
+    color: #011627;
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Prata', serif;
+    font-family: 'Lustria', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Questrial', sans-serif;
+}
+
+.skills .list > .listItem:hover{
+   
+    background-color: rgba(200, 200, 200,.45);
+    
+
+}
+
+.rating::before{
+}
+
+.rating{
+    padding: inherit;
+    margin-left: 1em;
+    font-size: .75em;
+    background-color: rgba(200, 200, 200,1);
+    background-color: grey;
+    color:white;
+ 
+}
+
+
