@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Arapey|Arsenal|Cinzel|Cinzel+Decorative|Cormorant|Cormorant+Garamond|Crimson+Text|Dosis|EB+Garamond|Francois+One|Gafata|Heebo|Italiana|Khula|Lustria|Noto+Sans|Open+Sans+Condensed:300|Open+Sans:300,400|PT+Sans|Playfair+Display|Prata|Questrial|Raleway|Slabo+27px|Sorts+Mill+Goudy|Spectral|Work+Sans|Yantramanav');
+/* Tech Icons from http://konpa.github.io/devicon/ */
 
 /*
 font-family: 'Arapey', serif;
@@ -201,9 +202,14 @@ body{
     align-items: center;
     justify-content: space-between;
     margin-right: 1em;
-    padding: .25em;
+    padding: .2em;
+    padding-left: .25em;
+    padding-right: 0;
     border-left: 1px #043863 solid;
     background-color: rgba(200, 200, 200,.65);
+    background-color: rgba(100, 100, 255,.35);
+    background-color: rgba(0, 65, 109,.25);
+
     font-size: .85em;
     color: #011627;
 
@@ -215,24 +221,30 @@ body{
     font-family: 'Questrial', sans-serif;
 }
 
+.icon{
+    margin-right: .25em;
+    font-size: 1.25em;
+}
+
 .skills .list > .listItem:hover{
    
     background-color: rgba(200, 200, 200,.45);
-    
-
+    background-color: rgba(100, 100, 255,.25);
+    background-color: rgba(0, 65, 109,.15);
 }
 
 .rating::before{
 }
 
 .rating{
-    padding: inherit;
-    margin-left: 1em;
+    padding: .25em;
+    margin-left: .75em;
     font-size: .75em;
-    background-color: rgba(200, 200, 200,1);
-    background-color: grey;
+    background-color: rgba(100, 100, 255,.5);
+    background-color: rgba(0, 65, 109,.25);
+
     color:white;
- 
+    color: #011627;
 }
 
 
