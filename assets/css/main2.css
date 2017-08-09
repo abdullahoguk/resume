@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey|Arsenal|Cinzel|Cinzel+Decorative|Cormorant|Cormorant+Garamond|Crimson+Text|Dosis|EB+Garamond|Francois+One|Gafata|Heebo|Italiana|Khula|Lustria|Noto+Sans|Open+Sans+Condensed:300|Open+Sans:300,400|PT+Sans|Playfair+Display|Prata|Questrial|Raleway|Slabo+27px|Sorts+Mill+Goudy|Spectral|Work+Sans|Yantramanav');
+/* Tech Icons from http://konpa.github.io/devicon/ */
+
+/*
+font-family: 'Arapey', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Cormorant', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Italiana', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Prata', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Sorts Mill Goudy', serif;
+font-family: 'Spectral', serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Francois One', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Yantramanav', sans-serif;
+font-family: 'Heebo', sans-serif;
+font-family: 'Khula', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Arsenal', sans-serif;
+font-family: 'Gafata', sans-serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Crimson Text', serif;
+font-family: 'Lustria', serif;
+*/
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: "helvetica", sans-serif;
+}
+
+html{
+    border-top: 3px #043863 solid;
+}
+
+body{
+    width: 100%;
+}
+
+.head{
+    margin: auto;
+    margin-top: .5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    padding-top: .75em;
+
+}
+
+
+.photo{
+    margin-left: 2em;
+    margin-right: 1em;
+}
+
+.photo > img{
+    width: 4em;
+}
+
+.name{
+    color: #12C9B7;
+    font-size: 1.5em;
+    flex-grow: 1;
+    font-weight:200; 
+    font-family: 'Playfair Display', serif;
+}
+
+.info{
+    margin-right: 5.5em;
+    margin-left: 5em;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.info *{
+    color: #011627;
+    font-size: .7em;
+    margin-bottom: .5em;
+    padding-left: .25em;
+    border-left: 2px #043863 solid;
+    border-radius: .1em;
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Prata', serif;
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Lustria', serif;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.body{
+    width: 100%;
+    margin: auto;
+    margin-top: .5em;
+}
+
+.each{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 75%;
+}
+
+.title{
+    color: #011627;
+    background-color: wheat;
+    background-color: rgba(200, 200, 200,.65);
+    background-color: rgba(100, 100, 255,.35);
+    background-color: rgba(0, 65, 109,.05);
+    font-size: 1.1em;
+    font-family: 'Cinzel', serif;
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Playfair Display', serif;
+
+    border-left: 0px black solid;
+    border-radius: .1em;
+    padding-left: .75em;
+    padding-top: .15em;
+    padding-bottom: .15em;
+}
+
+.item{
+    width: 90%;
+    margin: .5em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .15em;
+
+    border-left: 1px #043863 solid;
+    border-radius: .1em;
+    background-color: rgba(246, 247, 248,0);
+}
+
+.item:hover{
+    background-color: rgba(246, 247, 248,1);
+}
+
+.date{
+    color:rgb(0, 24, 12);
+    font-size: .8em;
+    margin-bottom: .25em;
+    font-family: 'Arapey', serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.date:before{
+      content: "× ";
+}
+
+.school{
+    color: #011627;
+    font-size: .9em;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+.place{
+    font-size: .8em;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.place:before{
+    content: "» ";
+}
+
+.department{
+    font-size: .75em;
+    color: #00416D;
+
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Lustria', serif;
+}
+
+.detail{
+    font-size: .75em;
+    color: #262725;
+    font-family: 'Raleway', sans-serif;
+}
+
+.school, .department, .detail {
+    padding-left: 10px;
+}
+
+.hobbies{
+    display: none;
+}
+
+/*----Interests and Skills */
+
+.skills .list{
+    display: flex;
+    margin-left: 1em;
+}
+
+.skills .list > .listItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1em;
+    padding: .2em;
+    padding-left: .25em;
+    padding-right: 0;
+    border-left: .0px #043863 solid;
+    border-radius: .2em;
+    background-color: rgba(200, 200, 200,.65);
+    background-color: rgba(100, 100, 255,.35);
+    background-color: rgba(0, 65, 109,.1);
+
+    font-size: .75em;
+    color: #011627;
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Prata', serif;
+    font-family: 'Lustria', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Questrial', sans-serif;
+}
+
+
+.icon{
+    margin-right: .25em;
+    font-size: 1.25em;
+}
+
+.skills .list > .listItem:hover{
+   
+    background-color: rgba(200, 200, 200,.45);
+    background-color: rgba(100, 100, 255,.25);
+    background-color: rgba(0, 65, 109,.15);
+}
+
+.rating::before{
+}
+
+.rating{
+    padding: .25em;
+    margin-left: .5em;
+    margin-right: .25em;
+    font-size: .75em;
+    background-color: rgba(100, 100, 255,.5);
+    background-color: rgba(0, 65, 109,.1);
+    border-radius: .25em;
+
+    color:white;
+    color: #011627;
+}
+
+
