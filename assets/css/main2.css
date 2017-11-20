@@ -38,7 +38,7 @@ font-family: 'Lustria', serif;
 }
 
 html{
-    border-top: 3px #043863 solid;
+    border-top: 3px #043863 solid;    
 }
 
 body{
@@ -52,12 +52,15 @@ body{
 .head{
     margin: auto;
     margin-top: .5em;
+    flex-wrap:wrap;
+    
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 95%;
+    width: 90%;
     padding-top: .75em;
+    flex-wrap :wrap;
 
 }
 
@@ -68,8 +71,7 @@ body{
 
 .photo > img{
     width: 5em;
-    border-radius: 10em;
-    
+    border-radius: 10em;   
 }
 
 .name{
@@ -78,24 +80,27 @@ body{
     flex-grow: 1;
     font-weight:200; 
     font-family: 'Playfair Display', serif;
+    
 }
 
 .info{
-    margin-right: 5.5em;
-    margin-left: 5em;
-
+    
+    margin-top:.5em;
+    position: static;
     display: flex;
     flex-direction: column;
+    float: right;
 }
 
 .info > a{
     text-decoration: none;
     color: #011627;
-    font-size: .75em;
+    font-size: .85em;
     margin-bottom: .5em;
     padding-left: .25em;
     border-left: 0px #043863 solid;
     border-radius: .1em;
+    max-width: 256px;
 
     font-family: 'Open Sans', sans-serif;
     font-family: 'Playfair Display', serif;
@@ -207,6 +212,7 @@ body{
 .skills .list{
     display: flex;
     margin-left: 1em;
+    flex-wrap:wrap;    
 }
 
 .skills .list > .listItem{
@@ -215,6 +221,8 @@ body{
     align-items: center;
     justify-content: space-between;
     margin-right: 1em;
+    margin-top: .1em;
+    margin-bottom: .1em;
     padding: .2em;
     padding-left: .25em;
     padding-right: 0;
@@ -262,6 +270,54 @@ body{
 
     color:white;
     color: #011627;
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+    html{
+        border-top: .4em #12C9B7 solid;  
+    }
+    
+    .head{
+        background-color: rgba(0, 65, 109,.1);
+        margin-top: 0;        
+        width:100%;
+        flex-direction: column;
+        padding-bottom: 1em;
+    }
+
+    .name,.info {
+        text-align: center;
+    }
+
+    .info > a{
+        border-radius: 2em;
+        font-size: .80em;
+        background-color: rgba(0, 65, 109,.05);
+        padding: .5em;      
+    }
+
+    .info > a:hover{
+        background-color: rgba(0, 65, 109,.1);
+    }
+
+    i{
+        margin-left: 1em;
+        float: left;
+    }
+
+    .photo > img{
+        width: 7.5em;
+        border-radius: 10em;   
+    }
+
+    .name{
+        margin-bottom: 1em;      
+    }
+
+    .each{
+        width:95% !important;
+    }
 }
 
 
