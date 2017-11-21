@@ -167,7 +167,7 @@ body{
 }
 
 .date:before{
-      content: "× ";
+      content: "ꞏ ";
 }
 
 .school{
@@ -288,35 +288,42 @@ body{
 
     .name,.info {
         text-align: center;
+        width: 12.5em;
     }
 
     .info > a{
-        border-radius: 2em;
+        border-radius: .2em;
         font-size: .80em;
         background-color: rgba(0, 65, 109,.05);
-        padding: .5em;      
+        padding: .5em;
+        margin: .15em;    
     }
 
     .info > a:hover{
         background-color: rgba(0, 65, 109,.1);
     }
 
-    i{
-        margin-left: 1em;
+    .info i{
+        margin-left: .5em;
         float: left;
     }
 
     .photo > img{
-        width: 7.5em;
+        width: 6em;
         border-radius: 10em;   
     }
 
     .name{
-        margin-bottom: 1em;      
+        margin-bottom: .25em;
+        font-size: 1.5em;
     }
 
     .each{
         width:95% !important;
+    }
+
+    .hidden{
+        display: block !important;
     }
 }
 
